@@ -1,16 +1,16 @@
 import React from 'react'
-import { View, Text } from "react-native";
+import { View, Text, Image } from "react-native";
+
+import styles from "./styles";
+const image = require("../../../assets/images/Saly-1.png");
 
 const HomeScreen = () => {
     return (
-        <View
-        style={{
-            flex: 1, 
-            justifyContent: 'center', 
-            alignItems: 'center'
-            }}>
-            <Text>HomeScreen component</Text>
-        </View>
+        <View style={styles.root}>
+            <Image style={styles.image} source={image}/>
+            <Text>Hme screem</Text>
+
+        </View>    
     )
 }
 

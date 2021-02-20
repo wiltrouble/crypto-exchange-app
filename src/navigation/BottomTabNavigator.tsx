@@ -1,4 +1,4 @@
-import { Ionicons, Entypo, AntDesign, FontAwesome, MaterialIcons } from '@expo/vector-icons';
+import { Entypo, AntDesign, FontAwesome, MaterialIcons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import * as React from 'react';
 
